@@ -109,11 +109,14 @@ hr
 }
 
 /* search form*/
+#peoplepic img {
+	width: 1520px;
+	}
 
 #formfill {
 	left: 760px;
 	position: absolute;
-	top: 55px;
+	top: 85px;
 }
 
 #search_bg {
@@ -127,14 +130,14 @@ hr
 	background-color: rgba(20, 20, 20, 0.85);
 	border-radius: 2px 2px 2px 2px;
 color: #FFFFFF;
-height: 135px;
+height: 120px;
 left: 0;
 padding: 20px;
 position: relative;
 right: 0;
 top: 0px;
 width: 100%;
-	margin-bottom: 55px;
+/*	margin-bottom: 55px;*/
 
 }
 
@@ -185,11 +188,13 @@ width: 100%;
 		width: 100%;
 	}
 
-	#logo h2
+	#logo h3
 	{
-		position: absolute;
-		left: 30px;
-		top: 40px;
+		font-family: sans-serif;
+		font-style: oblique;
+		left: 50px;
+		position: relative;
+		top: -5px;
 	}
 	
 	#logo h1
@@ -294,6 +299,7 @@ width: 100%;
 
 	#content
 	{
+		margin-top: 55px;
 		float: right;
 		width: 790px;
 	}
